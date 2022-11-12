@@ -1,0 +1,92 @@
+window_dark = '''
+QWidget {
+    background-color: #023047;
+    font: 15px "Arial";
+    color: #F0F0F0;
+}
+'''
+window_light = '''
+QWidget {
+    background-color: #bde0fe;
+    font: 15px "Arial";
+    color: #023047;
+}
+'''
+
+grpbox_light = '''
+QGroupBox {
+    border: 2px solid #023047;
+    border-radius: 8%;    
+}
+'''
+grpbox_dark = '''
+QGroupBox {
+    border: 2px solid #a1a1a1;
+    border-radius: 8%;    
+}
+'''
+
+grpbox_wrong = '''
+QGroupBox {
+    border: 5px solid #e76f51;
+    border-radius: 8%;    
+}
+'''
+
+grpbox_right = '''
+QGroupBox {
+    border: 5px solid #2a9d8f;
+    border-radius: 8%;    
+}
+'''
+
+
+rbtn_dark = '''
+QRadioButton::indicator {
+    width: 20px;
+    height: 20px;
+}
+QRadioButton::indicator::unchecked {
+    image: url(pics/1.png);
+}
+QRadioButton::indicator:unchecked:hover {
+    image: url(pics/1.png);
+}
+QRadioButton::indicator:unchecked:pressed {
+    image: url(pics/1.png);
+}
+QRadioButton::indicator::checked {
+    image: url(pics/2.png);
+}
+QRadioButton::indicator:checked:hover {
+    image: url(pics/2.png);
+}
+QRadioButton::indicator:checked:pressed {
+    image: url(pics/2.png);
+}
+'''
+
+rbtn_light = '''
+QRadioButton::indicator {
+    width: 20px;
+    height: 20px;
+}
+QRadioButton::indicator::unchecked {
+    image: url(pics/1.png);
+}
+QRadioButton::indicator:unchecked:hover {
+    image: url(pics/1.png);
+}
+QRadioButton::indicator:unchecked:pressed {
+    image: url(pics/1.png);
+}
+QRadioButton::indicator::checked {
+    image: url(pics/3.png);
+}
+QRadioButton::indicator:checked:hover {
+    image: url(pics/3.png);
+}
+QRadioButton::indicator:checked:pressed {
+    image: url(pics/3.png);
+}
+'''
